@@ -1,0 +1,507 @@
+<<<<<<< HEAD
+$red-color: #d12331;
+$text-color: #4d4d4f;
+
+.departament-urban-page{
+
+  #menu_header{
+    .active{
+        color: $red-color;
+    }
+  }
+
+  header{
+    background: white;
+  }
+
+  background: url('/img/dep-urban.png');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  .breadcrumbs{
+    padding-top: 50px;
+  }
+
+  .adv-text-block{
+    padding-top: 80px;
+    text-align: center;
+
+    .adv-title{
+      color: $text-color;
+      font-size: 35px;
+      position: relative;
+      &:before{
+       position: absolute;
+        width: 150px;
+        height: 2px;
+        background: $red-color;
+        bottom: -15px;
+        content: '';
+        left: 50%;
+        transform: translate(-50%,0);
+      }
+    }
+
+    &-description{
+      color: $text-color;
+      font-size: 17px;
+      padding-top: 20px;
+      line-height: 27px;
+      padding-bottom: 70px;
+    }
+  }
+
+  .departament-adv-accordeon{
+    background: url('../img/dep-urban-acc.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 0;
+  }
+
+  .acc-item{
+    margin: auto;
+    transition-duration: 0.4s;
+
+    .col-md-10 {
+      margin: auto;
+      border-bottom: 1px solid $red-color;
+    }
+
+    .acc-arrow svg path {
+      transition-duration: 0.4s;
+    }
+
+    &:hover, &.opened {
+      background: white;
+      cursor: pointer;
+
+      .acc-arrow svg path {
+        fill: white !important;
+      }
+
+      .acc-arrow{
+        background: $red-color;
+      }
+    }
+  }
+  .acc-item.opened{
+    background: white;
+  }
+
+  .acc-body{
+    padding: 20px 25px;
+    display: none;
+    margin-top: -35px;
+    padding-right: 65px;
+
+    &-heading:first-child{
+      margin-top: 0 !important;
+    }
+    &-heading{
+      color: $red-color;
+      margin-top: 35px;
+      font-weight: bold;
+    }
+
+    &-text{
+      color: $text-color;
+      margin-top: 15px;
+    }
+
+    & ul{
+      list-style: none;
+      padding-right: 15px;
+
+      & a{
+        color: $red-color;
+      }
+
+      & li{
+        position: relative;
+        font-size: 16px;
+        color: $text-color;
+        margin-bottom: 10px;
+
+        &:before{
+          content: '';
+          position: absolute;
+          right: -12px;
+          top: 8px;
+          width: 6px;
+          height: 6px;
+          background: $red-color;
+        }
+      }
+    }
+  }
+
+  .acc-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 0;
+
+     .acc-text {
+        position: relative;
+        padding-right: 65px;
+       padding-top: 20px;
+       font-weight: bold;
+       font-size: 19px;
+       color: $text-color;
+
+
+       &:before , &:after{
+         position: absolute;
+         content: '';
+         background: $red-color;
+       }
+
+       &:before{
+         width: 65px;
+         height: 15px;
+         top: -5px;
+         right: 65px;
+       }
+
+       &:after {
+         width: 80px;
+         height: 1px;
+         right: -15px;
+         top: -5px;
+       }
+      }
+  }
+
+  .acc-arrow{
+    padding: 10px;
+    border: 1px solid $red-color;
+    display: flex;
+    align-items: center;
+
+    img{
+      max-width: 22px;
+    }
+  }
+    .eco-bottom-text{
+      padding: 80px 0;
+      .eco-bottom-text-title{
+        color: $text-color;
+        font-size: 23px;
+        font-weight:bold;
+        position: relative;
+
+        &:before , &:after{
+             position: absolute;
+             content: '';
+             background: $red-color;
+           }
+
+           &:before{
+             width: 65px;
+             height: 15px;
+             top: -20px;
+             right: 0px;
+           }
+
+           &:after {
+             width: 80px;
+             height: 1px;
+             right: -80px;
+             top: -20px;
+           }
+        }
+
+
+
+      .row{
+        margin-top: 15px;
+
+        a{
+          text-decoration: none;
+        }
+
+        &.margin{
+          margin-top: 80px;
+        }
+      }
+
+      .img-responsive{
+        max-width: 100%;
+      }
+
+      .eco-bottom-text-desc{
+        color: $text-color;
+        font-size: 16px;
+        padding: 40px 0;
+      }
+
+      .eco-home-title{
+        color: $red-color;
+        padding: 4px 0;
+        font-size: 16px;
+      }
+
+      .eco-home-desc{
+        font-weight: 300;
+        font-size: 13px;
+        color: $text-color;
+      }
+    }
+}
+
+=======
+$red-color: #d12331;
+$text-color: #4d4d4f;
+
+.departament-urban-page{
+
+  #menu_header{
+    .active{
+        color: $red-color;
+    }
+  }
+
+  header{
+    background: white;
+  }
+
+  background: url('/img/dep-urban.png');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  .breadcrumbs{
+    padding-top: 50px;
+  }
+
+  .adv-text-block{
+    padding-top: 80px;
+    text-align: center;
+
+    .adv-title{
+      color: $text-color;
+      font-size: 35px;
+      position: relative;
+      &:before{
+       position: absolute;
+        width: 150px;
+        height: 2px;
+        background: $red-color;
+        bottom: -15px;
+        content: '';
+        left: 50%;
+        transform: translate(-50%,0);
+      }
+    }
+
+    &-description{
+      color: $text-color;
+      font-size: 17px;
+      padding-top: 20px;
+      line-height: 27px;
+      padding-bottom: 70px;
+    }
+  }
+
+  .departament-adv-accordeon{
+    background: url('../img/dep-urban-acc.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 0;
+  }
+
+  .acc-item{
+    margin: auto;
+    transition-duration: 0.4s;
+
+    .col-md-10 {
+      margin: auto;
+      border-bottom: 1px solid $red-color;
+    }
+
+    .acc-arrow svg path {
+      transition-duration: 0.4s;
+    }
+
+    &:hover, &.opened {
+      background: white;
+      cursor: pointer;
+
+      .acc-arrow svg path {
+        fill: white !important;
+      }
+
+      .acc-arrow{
+        background: $red-color;
+      }
+    }
+  }
+  .acc-item.opened{
+    background: white;
+  }
+
+  .acc-body{
+    padding: 20px 25px;
+    display: none;
+    margin-top: -35px;
+    padding-right: 65px;
+
+    &-heading:first-child{
+      margin-top: 0 !important;
+    }
+    &-heading{
+      color: $red-color;
+      margin-top: 35px;
+      font-weight: bold;
+    }
+
+    &-text{
+      color: $text-color;
+      margin-top: 15px;
+    }
+
+    & ul{
+      list-style: none;
+      padding-right: 15px;
+
+      & a{
+        color: $red-color;
+      }
+
+      & li{
+        position: relative;
+        font-size: 16px;
+        color: $text-color;
+        margin-bottom: 10px;
+
+        &:before{
+          content: '';
+          position: absolute;
+          right: -12px;
+          top: 8px;
+          width: 6px;
+          height: 6px;
+          background: $red-color;
+        }
+      }
+    }
+  }
+
+  .acc-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 35px 0;
+
+     .acc-text {
+        position: relative;
+        padding-right: 65px;
+       padding-top: 20px;
+       font-weight: bold;
+       font-size: 19px;
+       color: $text-color;
+
+
+       &:before , &:after{
+         position: absolute;
+         content: '';
+         background: $red-color;
+       }
+
+       &:before{
+         width: 65px;
+         height: 15px;
+         top: -5px;
+         right: 65px;
+       }
+
+       &:after {
+         width: 80px;
+         height: 1px;
+         right: -15px;
+         top: -5px;
+       }
+      }
+  }
+
+  .acc-arrow{
+    padding: 10px;
+    border: 1px solid $red-color;
+    display: flex;
+    align-items: center;
+
+    img{
+      max-width: 22px;
+    }
+  }
+    .eco-bottom-text{
+      padding: 80px 0;
+      .eco-bottom-text-title{
+        color: $text-color;
+        font-size: 23px;
+        font-weight:bold;
+        position: relative;
+
+        &:before , &:after{
+             position: absolute;
+             content: '';
+             background: $red-color;
+           }
+
+           &:before{
+             width: 65px;
+             height: 15px;
+             top: -20px;
+             right: 0px;
+           }
+
+           &:after {
+             width: 80px;
+             height: 1px;
+             right: -80px;
+             top: -20px;
+           }
+        }
+
+
+
+      .row{
+        margin-top: 15px;
+
+        a{
+          text-decoration: none;
+        }
+
+        &.margin{
+          margin-top: 80px;
+        }
+      }
+
+      .img-responsive{
+        max-width: 100%;
+      }
+
+      .eco-bottom-text-desc{
+        color: $text-color;
+        font-size: 16px;
+        padding: 40px 0;
+      }
+
+      .eco-home-title{
+        color: $red-color;
+        padding: 4px 0;
+        font-size: 16px;
+      }
+
+      .eco-home-desc{
+        font-weight: 300;
+        font-size: 13px;
+        color: $text-color;
+      }
+    }
+}
+
+>>>>>>> 62ebab02320bda5c42943c6692401c0255b44d82
